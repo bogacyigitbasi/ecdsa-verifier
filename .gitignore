@@ -12,3 +12,9 @@ docs/
 
 # Dotenv file
 .env
+
+
+# py
+
+lib/python3.12/*
+/bin/
