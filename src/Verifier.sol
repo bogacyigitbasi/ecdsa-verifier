@@ -10,6 +10,8 @@ contract Verifier {
     constructor(address _verifyingAddress) {
         verifyingAddress = _verifyingAddress;
     }
+
+    // both verifications are below the same as the signature includes r,s,v
     // send the message and create hash and sign
     function verifyV1(
         string calldata message,
