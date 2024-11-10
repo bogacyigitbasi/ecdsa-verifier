@@ -3,8 +3,19 @@
 - To create&activate the venv
   `python3 -m venv path/to/venv`
   `source path/to/venv/bin/activate`
-- Install python libraries
+- Install required python libraries
   `python3 -m pip install ecdsa eth-keys`
+
+- We can use this tool to generate a pair of public private ECDSA keys
+  https://emn178.github.io/online-tools/ecdsa/key-generator/
+
+# Signing
+
+-
+
+# Verification
+
+# Re-compute Public Key
 
 ## Foundry
 
