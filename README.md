@@ -1,3 +1,5 @@
+All steps and detailed tutorial can be found on my Medium. Here is the link: https://medium.com/@bogachanyigitbasi/verify-signature-on-ethereum-using-foundry-454341cf80a2
+
 # ECDSA Practice
 
 - To create&activate the venv
@@ -11,11 +13,18 @@
 
 # Signing
 
--
+Sign a message to generate the values of r, s which is the signature.
 
 # Verification
 
+For verification, one needs to receive the signature (r,s), signed message and public key.
+It is possible to do it without receiving the public key if you know how to recover it. Using the algorithm shared in the next step.
+
 # Re-compute Public Key
+
+How a public key can be recovered, in Ethereum context how `ecrecover` function works under the hood.
+
+# Solidity
 
 ## Foundry
 
